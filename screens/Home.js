@@ -120,7 +120,7 @@ const Home = () => {
                             horizontal={true}
                             renderItem={({ item, index }) => (
                                 <View style={{ display: "flex", flexDirection: "column", marginRight: 10 }}>
-                                    <Text style={{color: "#b1b2b4", fontSize: 12, fontWeight: "500", marginVertical: 5}}>5:00 p.m.</Text>
+                                    <Text style={{ color: "#b1b2b4", fontSize: 12, fontWeight: "500", marginVertical: 5 }}>5:00 p.m.</Text>
                                     <View style={{}}>
                                         <Image width={320} height={180} source={{ uri: "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=70,width=320,height=180/catalog/crunchyroll/941fbe49ed8aa8e19121520aa997dbae.jpg" }} />
                                     </View>
@@ -154,9 +154,6 @@ const Home = () => {
                         />
                     </View>
                 </View>
-
-                {/* Extra space to ensure scrolling */}
-                <View style={{ height: 100 }} />
 
             </ScrollView>
         </SafeAreaView>
